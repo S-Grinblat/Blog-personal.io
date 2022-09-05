@@ -13,6 +13,9 @@
     .presentation-img-new-container img {
         width: 90%;
     }
+    .blogs-enlaces {
+        grid-template-columns: 1fr 1fr;
+    }
     .blogs-posts-container .post-container {
         width: 100%;
         justify-content: center;
@@ -23,5 +26,8 @@
     }
     .perfil-new-container .perfil-new {
         display: block;
+    }
+    .perfil-enlaces {
+        grid-template-columns: 1fr 1fr;
     }
 }

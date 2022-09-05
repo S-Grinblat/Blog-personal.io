@@ -59,7 +59,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 90px;
-    background-image: var(--secondary-color);
+    background-color: var(--color-font-secondary);
 }
 nav .nav-logo-container {
     margin-left: 30px;
@@ -144,7 +144,7 @@ main .main-container .main-container-button:active {
     font-size: 1.4rem;
     font-family: var(--font);
     font-weight: bold;
-    color: var(--color-font-primary);
+    color: var(--color-font-secondary);
 }
 .button:hover {
     background-color: var(--primary-color);
@@ -152,20 +152,33 @@ main .main-container .main-container-button:active {
 }
 .blogs-enlaces {
     display: grid;
-    grid-template-columns: 1fr 1fr;
 }
 .blogs-enlaces .info-button-left, .info-button-right {
     text-align: center;
     margin-top: 45px;
 }
-
+.button-enlace {
+    border: 1px solid var(--primary-color);
+    padding: 10px 15px;
+    font-size: 1.4rem;
+    font-family: var(--font);
+    font-weight: bold;
+    color: var(--color-font-primary);
+}
+.button-enlace:hover {
+    background-color: var(--primary-color);
+    border: 1px solid var(--color-font-primary);
+}
 .main-blogs-container {
     display: grid;
+    background-image: var(--secondary-color);
+    color: var(--color-font-secondary);
 }
 .blogs-posts-container h3 {
     font-size: var(--medium);
     font-family: var(--font);
     text-align: center;
+
     border-bottom: 1px solid var(--alternative-color);
     padding-bottom: 15px;
 }
@@ -196,11 +209,11 @@ main .main-container .main-container-button:active {
 footer {
     width: 100%;
     height: 70px;
-    background-image: var(--secondary-color);
+    background-color: var(--alternative-color);
     border-top: 35px solid var(--primary-color);
 }
 footer p {
-    color: var(--color-font-secondary);
+    color: var(--color-font-primary);
     font-family: var(--font);
     text-align: center;
 }
@@ -270,7 +283,7 @@ footer p {
     color: var(--color-font-primary);
 }
 .perfil-container {
-    background-color: var(--alternative-color);
+    background-image: var(--secondary-color);
     display: grid;
     padding: 0 30px;
 }
@@ -298,7 +311,7 @@ footer p {
 .perfil-info-container .button {
     font-family: var(--font);
     font-size: 1.4rem;
-    color: var(--color-font-primary);
+    color: var(--color-font-secondary);
     padding: 10px;
     border: 1px solid var(--primary-color);
 }
@@ -308,7 +321,7 @@ footer p {
 }
 .perfil-enlaces {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    margin-bottom: 25px;
 }
 .perfil-enlaces .enlace-left, .enlace-right {
     text-align: center;
@@ -318,3 +331,10 @@ footer p {
     font-family: var(--font);
     font-size: 1.4rem;
 } 
+.perfil-title {
+    color: var(--color-font-secondary);
+}
+.perfil-info {
+    color: var(--color-font-secondary);
+    font-size: var(--small);
+}
