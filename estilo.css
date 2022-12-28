@@ -221,7 +221,12 @@ footer p {
     display: grid;
 }
 .blogpost-img-container img {
-    width: 100%;
+    width: 85%;
+    position: relative;
+    left: 7%;
+    top: 14px;
+    right: 0;
+    bottom: 0;
 }
 .blogpost-info-container {
     padding: 0 20px 30px;
@@ -292,8 +297,12 @@ footer p {
     height: auto;
 }
 .perfil-img-container img {
-    width: 100%;
-    margin-top: 35px;
+    width: 85%;
+    position: relative;
+    left: 7%;
+    top: 14px;
+    right: 0;
+    bottom: 0;
 }
 .perfil-info-container h2 {
     font-family: var(--font);
@@ -323,7 +332,7 @@ footer p {
     display: grid;
     margin-bottom: 25px;
 }
-.perfil-enlaces .enlace-left, .enlace-right {
+.perfil-enlaces, .enlace-right {
     text-align: center;
     margin-top: 45px;
 }
